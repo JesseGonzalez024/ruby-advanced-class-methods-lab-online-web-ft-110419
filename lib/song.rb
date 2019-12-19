@@ -51,7 +51,6 @@ class Song
     song = self.create
     song.name = result[1]
     song.artist_name = result[0]
-    binding.pry
     song
   end
   def self.destroy_all
